@@ -1,0 +1,51 @@
+Installation Github-desktop for Unix plaform, Linux, Ubuntu, Debian and other !!!
+
+----HB1team-----HB1team-----HB1team-----HB1team-----HB1team-----HB1team-----HB1team-----HB1team-----HB1team-----HB1team-----HB1team---
+
+>>>Installers for various Linux distributions can be found on the shiftkey/desktop<<<
+
+
+snap install ~/Downloads/GitHubDesktop-linux-2.0.4-linux1.snap --classic --dangerous
+    # install the git command
+    sudo apt-get install -y git
+    sudo apt-get install -y git-core
+    #clone this repository in the current directory  
+    git clone https://github.com/BestSolution-at/fixtar.git
+    #installing the build requisites
+    sudo apt-get install -y make
+    sudo apt-get install -y gcc
+    sudo apt-get install -y flex
+    sudo apt-get install -y sed
+    sudo apt-get install -y coreutils
+    # change directory to fixtar/src 
+    cd  fixtar/src
+    # build from source
+    make
+    # install the tool in /usr/local/bin
+    sudo make install
+    sudo apt -f install
+
+
+----CONFIGURE-YOUR-ACCOUNT-----
+
+After you install Github, use the following two commands by replacing “user_name” with your GitHub username and replacing “email_id” with your email-id you used to create your GitHub account.
+
+With your terminal execute command
+
+ git config –global user.name “user_name”
+
+ git config –global user.email “email_id”
+
+Configuring GitHub
+
+ configure git
+
+ git config --global core.editor "nano -w"
+
+ mkdir ~/git
+
+ cd ~/git
+
+Your are ready for download your repository !!!
+
+ git clone https://github.com/exemple/exemple.git
